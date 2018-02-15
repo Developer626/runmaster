@@ -1,0 +1,6 @@
+<svg id="DistanceScreen" display="none">
+      <text class="header" x="1" y="44">DISTANCE</text>  
+      <text class="end vbig yellow" id="distanceint" x="285" y="155"></text>
+      <text class="start med yellow" id="distancefrac" x="287" y="118"></text>
+      <text class="start small" id="distanceunit" x="287" y="155"></text>
+</svg>

@@ -1,6 +1,31 @@
 <svg id="EntryScreen" display="none">
   <use href="#scrollview">
     <use href="#scrollview-item">
+      <text class="header red" id="connected1" x="1" y="44">WAITING ON</text>  
+      <text class="header red" id="connected2" x="1" y="94">SATELLITES</text>  
+      <use id="startrun" href="#square-button" y="120" fill="fb-green" display="none">
+        <set href="#text" attributeName="text-buffer" to="Start" />
+      </use>
+      <use id="pauserun" href="#square-button" y="$+5" fill="fb-yellow" display="none">
+        <set href="#text" attributeName="text-buffer" to="Pause" />
+      </use>
+      <use id="stoprun" href="#square-button" y="$+5" fill="fb-red" display="none">
+        <set href="#text" attributeName="text-buffer" to="Stop" />
+      </use>
+    </use>
+    <use href="#scrollview-item">
+      <text class="header" x="1" y="44">DISTANCE</text>  
+      <text class="red small" x="300" y="90">Dst:</text>
+      <text class="end big yellow" id="distance" x="295" y="120"></text>
+      <text class="start small" id="distanceunit" x="300" y="120">km</text>
+      <text class="red small" x="300" y="150">Asc:</text>  
+      <text class="end big yellow" id="ascent" x="295" y="180"></text>
+      <text class="start small" x="300" y="180">m</text>
+      <text class="red small" x="300" y="210">Des:</text> 
+      <text class="end big yellow" id="descent" x="295" y="240"></text>
+      <text class="start small" x="300" y="240">m</text>
+    </use>
+    <use href="#scrollview-item">
       <text x="10" y="40">GPS</text>  
       <text x="10" y="80">Lat:</text>  
       <text id="lat" x="90" y="80"></text>
@@ -12,15 +37,6 @@
       <text id="SPD"  x="90" y="200"></text>
       <text x="10" y="240">HD:</text> 
       <text id="HD" x="90" y="240"></text>
-    </use>
-    <use href="#scrollview-item">
-      <text x="10" y="40">DISTANCE</text>  
-      <text x="10" y="80">Dst:</text>  
-      <text id="distance" x="90" y="80"></text>
-      <text x="10" y="120">Asc:</text>  
-      <text id="ascent" x="90" y="120"></text>
-      <text x="10" y="160">Des:</text> 
-      <text id="descent" x="90" y="160"></text>
     </use>
     <use href="#scrollview-item">
       <text x="10" y="40">HEART RATE</text>  

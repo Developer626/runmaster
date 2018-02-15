@@ -1,6 +1,6 @@
 text {
   font-size: 32;
-  font-family: System-Regular;
+  font-family: Seville;
   font-weight: regular;
   text-length: 32;
   fill: white;
@@ -14,6 +14,45 @@ text {
   font-size: 45;
   font-weight: bold;
   text-anchor: middle;
+}
+.vbig {
+  font-family: Seville;
+  font-size: 110;
+}
+.big {
+  font-family: Seville;
+  font-size: 75;
+}
+.med {
+  font-family: Seville;
+  font-size: 55;
+}
+.small {
+  font-size: 32;
+  font-family: Seville;
+  font-weight: regular;
+}
+.header {
+  x: 1;
+  y: 44;
+  font-size: 64;
+  font-family: Seville;
+  font-weight: regular;
+  fill: green;
+}
+.avgheader {
+  x: 1;
+  y: 44;
+  font-size: 64;
+  font-family: Seville;
+  font-weight: regular;
+  fill: blue;
+}
+.end {
+  text-anchor: end;
+}
+.start {
+  text-anchor: start;
 }
 
 .opaque {

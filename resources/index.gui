@@ -1,5 +1,14 @@
 <svg>
-  <link rel="import" href="screen1.gui" />
+  <link rel="import" href="screen-pace-gauge.gui" />
+  <link rel="import" href="screen-battery-level.gui" />
+  <link rel="import" href="screen-duration.gui" />
+  <link rel="import" href="screen-distance.gui" />
+  <link rel="import" href="screen-hr.gui" />
+  <link rel="import" href="screen-hr-average.gui" />
+  <link rel="import" href="screen-steps.gui" />
+  <link rel="import" href="screen-pace.gui" />
+  <link rel="import" href="screen-pace-average.gui" />
+  <link rel="import" href="screen-end-run.gui" />
   <link rel="import" href="screen-entry.gui" />
   <link rel="import" href="screen-exit.gui" />
   <link rel="import" href="screen-summary.gui" />

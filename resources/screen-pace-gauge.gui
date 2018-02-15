@@ -1,0 +1,14 @@
+<svg id="PaceGauge" display="none">
+      <rect x="1" y="183" width="100%" height="67" fill="white" opacity="1" />    
+      <rect x="3" y="185" width="100%-5" height="63" fill="fb-light-gray" opacity="1" />    
+      <rect x="121" y="184" width="106" height="63" fill="fb-yellow" opacity="1" />    
+      <text font-family="Seville-Bold" font-size="42" text-anchor="middle" fill="black" x="50%" y="216" opacity="0.2">PACE</text>
+      <text font-family="Seville-Bold" font-size="42" text-anchor="middle" fill="black" x="50%" y="248" opacity="0.2">HR</text>
+  
+      <text id="pace-five-min-avg" font-family="Tungsten-Medium" font-size="42" text-anchor="middle" fill="black" x="1" y="216" display="none">O</text>
+      <text id="hr-five-min-avg"   font-family="Tungsten-Medium" font-size="42" text-anchor="middle" fill="black" x="1" y="248" display="none">O</text>
+      <text id="pace-activity-avg" font-family="Tungsten-Medium" font-size="42" text-anchor="middle" fill="black" x="1" y="216">X</text>
+      <text id="hr-activity-avg"   font-family="Tungsten-Medium" font-size="42" text-anchor="middle" fill="black" x="1" y="248">X</text>
+      <text id="pace-indicator"    font-family="Tungsten-Medium" font-size="42" text-anchor="middle" fill="black" x="1" y="216">I</text>
+      <text id="hr-indicator"      font-family="Tungsten-Medium" font-size="42" text-anchor="middle" fill="black" x="1" y="248">I</text>
+</svg>

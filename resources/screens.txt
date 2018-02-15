@@ -1,0 +1,19 @@
+Application Start:
+
+screen-entry.gui
+| | |    |                                |-- screen-units.gui
+| | |    |-- screen-settings.gui ---------|-- screen-distance.gui
+| | |                                     |-- screen-prefs.gui
+| | |------- screen-distance.gui --|      |-- screen-feedback.gui
+| |          screen-duration.gui --|
+| |          screen-pace.gui
+| |          screen-hr.gui --------|
+| |      |-- screen-duration.gui --|
+| |      |-- screen-time.gui
+| | |--- =========================== 
+| | |- no -- screen-end-run.gui -- yes -|
+| |--------- screen-summary.gui --------|
+|                |
+|------------screen-exit.gui
+
+Application End

@@ -1,0 +1,6 @@
+<svg id="AveragePaceScreen" display="none">
+      <text class="avgheader" x="1" y="44">AVG PACE</text>  
+      <text class="end vbig yellow" id="averagepace" x="285" y="155"></text>
+      <text class="start small" id="averagepaceunit1" x="287" y="120">m/mi</text>
+      <text class="start small" id="averagepaceunit2" x="287" y="155">m/mi</text>
+</svg>

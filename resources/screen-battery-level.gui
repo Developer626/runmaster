@@ -1,0 +1,5 @@
+<svg id="BatteryLevelScreen" display="none">
+      <text class="header" x="1" y="44">BATTERY</text>  
+      <text class="end vbig yellow" id="batteryLevel" x="285" y="155"></text>
+      <text class="start small" x="287" y="155">%</text>
+</svg>
